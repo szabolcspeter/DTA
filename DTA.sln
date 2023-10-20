@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Recursion", "Recursion\Recursion\Recursion.vcxproj", "{872534DE-74E2-4B2F-9445-084B252F8A18}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticAndGlobalVariablesInRecursion", "Recursion\StaticAndGlobalVariablesInRecursion\StaticAndGlobalVariablesInRecursion.vcxproj", "{B108255E-41A6-4362-B8CA-46328C7F8552}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,12 +25,21 @@ Global
 		{872534DE-74E2-4B2F-9445-084B252F8A18}.Release|x64.Build.0 = Release|x64
 		{872534DE-74E2-4B2F-9445-084B252F8A18}.Release|x86.ActiveCfg = Release|Win32
 		{872534DE-74E2-4B2F-9445-084B252F8A18}.Release|x86.Build.0 = Release|Win32
+		{B108255E-41A6-4362-B8CA-46328C7F8552}.Debug|x64.ActiveCfg = Debug|x64
+		{B108255E-41A6-4362-B8CA-46328C7F8552}.Debug|x64.Build.0 = Debug|x64
+		{B108255E-41A6-4362-B8CA-46328C7F8552}.Debug|x86.ActiveCfg = Debug|Win32
+		{B108255E-41A6-4362-B8CA-46328C7F8552}.Debug|x86.Build.0 = Debug|Win32
+		{B108255E-41A6-4362-B8CA-46328C7F8552}.Release|x64.ActiveCfg = Release|x64
+		{B108255E-41A6-4362-B8CA-46328C7F8552}.Release|x64.Build.0 = Release|x64
+		{B108255E-41A6-4362-B8CA-46328C7F8552}.Release|x86.ActiveCfg = Release|Win32
+		{B108255E-41A6-4362-B8CA-46328C7F8552}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{872534DE-74E2-4B2F-9445-084B252F8A18} = {C97777A0-E586-4ED2-8D42-A6307B52CAFE}
+		{B108255E-41A6-4362-B8CA-46328C7F8552} = {C97777A0-E586-4ED2-8D42-A6307B52CAFE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6191AF8-2845-49AE-B303-B675679A4428}
