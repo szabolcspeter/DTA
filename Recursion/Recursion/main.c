@@ -26,3 +26,16 @@ int main()
 
 	return 0;
 }
+
+//Tail recursion:
+//-----------------------
+// Time : o(n)
+// Space : o(n)
+
+
+//While loop is better:
+// 
+//while loop:
+//-----------------------
+//	Time : o(n)
+//	Space : o(1)
