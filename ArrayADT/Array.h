@@ -11,5 +11,6 @@ struct Array
 void Display(struct Array *arr);
 
 void Append(struct Array* arr, int x);
+void Insert(struct Array* arr, int index, int x);
 
 #endif
