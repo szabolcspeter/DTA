@@ -18,3 +18,19 @@ void Insert(struct Array* arr, int index, int x)
 		arr->length++;
 	}
 }
+
+int Delete(struct Array* arr, int index)
+{
+	if (index >= 0 && index < arr->length)
+	{
+		int x = arr->A[index];
+		for (int i = index;i < arr->length - 1;i++)
+		{
+			arr->A[i] = arr->A[i + 1];
+		}
+		arr->length--;
+		return x;
+	}
+
+	return 0;
+}
