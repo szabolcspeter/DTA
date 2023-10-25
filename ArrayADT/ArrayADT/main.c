@@ -4,9 +4,10 @@
 
 int main()
 {
-	struct Array arr = { {2,3,4,5,6}, 20, 5 };
+	struct Array arr = { {2,3,4,5,6}, 10, 5 };
 		
+	Append(&arr, 10);
 	Display(&arr);
 
-	return 0;
+ 	return 0;
 }

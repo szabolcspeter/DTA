@@ -3,11 +3,13 @@
 
 struct Array
 {
-	int A[20];
+	int A[10];
 	int size;
 	int length;
 };
 
 void Display(struct Array *arr);
+
+void Append(struct Array* arr, int x);
 
 #endif

@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Array.c" />
     <ClCompile Include="helpers.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>

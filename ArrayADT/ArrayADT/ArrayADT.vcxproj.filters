@@ -21,6 +21,9 @@
     <ClCompile Include="helpers.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Array.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">
