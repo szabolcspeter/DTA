@@ -8,3 +8,10 @@ void Display(struct Array *arr)
 	for (i = 0; i < arr->length; i++)
 		printf("%d ", arr->A[i]);
 }
+
+void Swap(int* x, int* y)
+{
+	int temp = *x;
+	*x = *y;
+	*y = temp;
+}

@@ -8,7 +8,8 @@ int main()
 		
 	// Append(&arr, 10);
 	// Insert(&arr, 2, 10);
-	printf("Deleted element: %d\n", Delete(&arr, 0));
+	// printf("Deleted element: %d\n", Delete(&arr, 0));
+	printf("Found at index: %d\n", LinearSearch(&arr, 5));
 	Display(&arr);
 
  	return 0;

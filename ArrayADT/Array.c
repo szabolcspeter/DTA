@@ -34,3 +34,16 @@ int Delete(struct Array* arr, int index)
 
 	return 0;
 }
+
+int LinearSearch(struct Array* arr, int key)
+{
+	for (int i = 0; i < arr->length;i++)
+	{
+		if (arr->A[i] == key)
+		{
+			Swap(&arr->A[i], &arr->A[i-1]);
+			return i;
+		}
+	}
+	return -1;
+}

@@ -25,4 +25,13 @@ void Insert(struct Array* arr, int index, int x);
 /// </summary>
 int Delete(struct Array* arr, int index);
 
+/// <summary>Time complexity:
+/// <para>- Best case:  O(1)</para>
+/// <para>- Worst case: O(n)</para>
+/// </summary>
+int LinearSearch(struct Array* arr, int key);
+
+void Swap(int* x, int* y);
+
+
 #endif
